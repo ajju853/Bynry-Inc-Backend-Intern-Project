@@ -62,10 +62,6 @@ The backend will now be running at **http://localhost:8000**.
 | **PUT** | `/service-requests/{id}/cancel` | Cancel a service request |
 | **POST** | `/service-requests/{id}/attachments/` | Upload file attachments |
 
-### **API Documentation**
-You can access the **interactive API documentation** at:
-- **Swagger UI** → [http://localhost:8000/docs](http://localhost:8000/docs)
-- **ReDoc** → [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## 🔐 Authentication
 The backend uses **JWT (JSON Web Token)** for authentication. To access protected routes:
